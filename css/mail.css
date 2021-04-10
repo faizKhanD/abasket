@@ -1,0 +1,244 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.heading_main{
+    /* float: left; */
+    width: 50%;
+}
+.order_id_ar{
+    /* float: left; */
+    width: 50%;
+    text-align: right;
+    padding-top: 6px;
+}
+.top_heading{
+    
+display: flex;
+    
+background: #f7bf01;
+    
+padding: 10px 10px;
+    
+color: #fff;
+}
+.product_img img{
+    width: 100%;
+}
+#wrapper{
+    width: 60%;
+    margin: auto;
+}
+.product_img{
+    width: 33%;
+    /* float: left; */
+    padding: 19px;
+}
+.roduct_details_coneten {
+   
+/* float: left; */
+   
+padding: 15px 15px;
+   
+background: #ebebeb;
+   
+display: flex;
+   
+/* display: inline-table; */
+   
+width: 100%;
+}
+.roduct_details_coneten_main{
+    width: 58%;
+}
+.heading_main h2{
+    margin: 0px;
+}
+.order_id_ar p{
+    margin: 0px;
+}
+.product_detais_area{
+    
+display: flex;
+    
+border-top: 2px solid #bcb6b6;
+    
+padding: 15px 0px;
+}
+.user_area p span{
+    
+font-size: 22px;
+    
+color: #f7bf01;
+    
+font-weight: 600;
+}
+.user_area p{
+    
+font-size: 12px;
+    
+font-weight: 600;
+}
+.user_msg{
+    display: flex;
+}
+.user_area{
+    width: 80%;
+
+}
+.ordder_date {
+    width: 20%;
+    text-align: right;
+}
+.ordder_date p{
+    
+font-size: 12px;
+}
+.user_profle_sec{
+    display: flex;
+}
+.addres{
+    width: 33.333%;
+}
+.addres h3{
+
+margin: 0;
+}
+.addres p{
+    
+font-size: 13px;
+    
+font-weight: 600;
+}
+.user_profle_sec{
+    
+background: #ebebeb;
+    
+padding: 20px;
+}
+.item{
+    width: 60%;
+    display: block;
+    clear: both;
+    display: inline-table;
+}
+.qty{width: 20%;display: inline-table;}
+
+.price{
+    width: 20%;
+    display: inline-table;
+}
+.roduct_details_coneten h4{
+    
+text-transform: uppercase;
+    
+font-size: 12px;
+    
+margin: 0px;
+}
+.total_area{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding: 14px 0px;
+}
+.total_area ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.total_headin li{
+
+font-size: 12px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+text-align: right;
+}
+.total_value li{
+
+font-size: 12px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+text-align: left;
+}
+.main_bg p{
+
+background: #f7bf01;
+
+padding: 10px;
+}
+.main_bg{
+    
+padding: 0px!important;
+}
+.para_area p{
+
+font-size: 12px;
+
+font-weight: 600;
+
+/* padding: 10px 0px; */
+}
+.para_area{
+    
+background: #ebebeb;
+    
+display: block;
+    
+padding: 10px 20px;
+    
+margin-top: 10px;
+}
+
+@media (max-width: 767px){
+
+
+    #wrapper{
+        width: 95%;
+        margin-top: 10px;
+    }
+    .heading_main h2{
+        
+font-size: 13px;
+    }
+    .order_id_ar p{
+        
+font-size: 10px;
+    }
+    .order_id_ar{
+        padding-top: 0px;
+    }
+    .roduct_details_coneten{
+        width: auto;
+    }
+.roduct_details_coneten p{
+    
+font-size: 12px;
+}
+
+
+.user_area p span{
+    
+font-size: 12px;
+}
+.user_area {
+    width: 70%;
+}
+.ordder_date{
+    width: 30%;
+    clear: both;
+    display: block;
+}
+
+}
